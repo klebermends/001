@@ -8,13 +8,6 @@
 
 <link rel="stylesheet" href="style.css">
 
-<!--     
-    <style>
-        h2 {
-            background-color: aquamarine;
-        }
-    </style> -->
-
 </head>
 
 <body>
@@ -94,6 +87,152 @@
 </table>
 
 </div>
+<br>
+<label for="ovos">qual a sua meta de ovos por dia?</label>
+<br>
+<input type="number" name="quantidade" value="" id="ovos" placeholder="quantos em? em?">
+<form>
+<input type="submit" value="sim, tudo isso">
+
+</form>
+<br>
+
+<h3>você esta desejando um ovo suculento agora?</h3>
+<!-- eu deixei o id igual para que haja uma pegadinha na hora de clicar no não marca o sim, mas a forma certa esta logo a baixo dessa tag -->
+
+<label for="sim">sim</label>
+<input type="radio" id="sim" name="now" checked>
+<br>
+<label for="sim">não</label>
+<input type="radio" id="sim" name="nw">
+
+<br>
+
+<h3>seus pais sabem que você gosta de ovos suculentos?</h3>
+<!-- forma certa de usar o id para não juntar na hora de marcar -->
+
+<label for="yes">sim</label>
+<input type="checkbox" name="gosta" id="yes" checked>
+<br>
+<label for="nop">não</label>
+<input type="checkbox" name="gosta" id="nop">
+<br>
+
+<h3>o quão guloso você é? </h3> 
+<!-- multiple é uma propiedade do select para marcar varias opções -->
+<label for="gula">níveis</label>
+<select name="guloso" id="gula">
+    <option value="guloso mestre" selected>guloso mestre</option>
+    <option value="guloso veterano">guloso veterano</option>
+    <option value="aprendiz de guloso">aprendiz de guloso</option>
+    <option value="micro gula">micro gula</option>
+</select>
+
+<br>
+<h3>Quando você se descobriu com ovos?</h3>
+
+<textarea rows="10" cols="40"></textarea>
+
+<br>
+
+<button onclick="alert('bro??')">ovos suculentos gratis em 1km</button>
+<!-- <input type="button" value="ovos suculentos gratis em 1km" onclick="alert('bro??')" -->
+<br>
+<br>
+
+<h2>seja um oficial ovudos </h2>
+<form method="get" action="index.html">
+    <label>nome completo</label>
+    <br>
+    <input type="text" name="nome" id="nome" placeholder="nome">
+    <input type="text" name="sobrenome" id="sobrenome" placeholder="sobrenome">
+
+    <br>
+    <br>
+    <label>idade:</label>
+    <br>
+<label for="dia">dia</label>
+    <select name="dia" id="dia">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+        <option value="13">13</option>
+        <option value="14">14</option>
+        <option value="15">15</option>
+        <option value="16">16</option>
+        <option value="17">17</option>
+        <option value="18">18</option>
+        <option value="19">19</option>
+        <option value="20">20</option>
+        <option value="21">21</option>
+        <option value="22">22</option>
+        <option value="23">23</option>
+        <option value="24">24</option>
+        <option value="25">25</option>
+        <option value="26">26</option>
+        <option value="27">27</option>
+        <option value="28">28</option>
+        <option value="29">29</option>
+        <option value="30">30</option>
+        <option value="31">31</option>
+    </select>
+
+    <label for="mes">mês</label>
+    <select name="mes" id="mes">
+        <option value="jan">jan</option>
+        <option value="fav">fev</option>
+        <option value="mar">mar</option>
+        <option value="abr">abr</option>
+        <option value="mai">mai</option>
+        <option value="jun">jun</option>
+        <option value="jul">jul</option>
+        <option value="agoq">ago</option>
+        <option value="sep">sep</option>
+        <option value="out">out</option>
+        <option value="nov">nov</option>
+        <option value="dez">dez</option>
+    </select>
+
+    <label for="ano">ano</label>
+    <input type="text" name="ano" id="ano" placeholder="1999"> 
+
+    <br>
+    <br>
+    <label>genero:</label>
+    <br>
+
+
+    <label for="masculino">masculino</label>
+    <input type="radio" name="genero" id="masculino">
+
+<label for="feminino">feminino</label>
+    <input type="radio" name="genero" id="feminino">
+
+<label for="personalizado">personalizado</label>
+    <input type="radio" name="genero" id="personalizado">
+    <br>
+    <br>
+
+    <label for="email_number">email or number:</label>
+    <input type="text" name="email_number" id="email_number" placeholder="exemple@email.com">
+    <br>
+    <br>
+    <label for="passoword">senha</label>
+    <br>
+    <input type="password" name="passoword" id="passoword">
+    
+    <input type="submit" value="enviar">
+
+</form>
 
 </body>
 
